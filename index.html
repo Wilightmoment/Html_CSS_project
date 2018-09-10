@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport標籤與手機優先裡面有關。讓網頁可以觸控縮放
+    在content中加上 user-scalable=no 可以關閉縮放功能-->
+    <link rel="shortcut icon" href="image/css.ico"/>
+    <meta name='description' content='我的HTML切版練習, CSS撰寫參考，HTML撰寫參考' />
+    <meta name="keywords" content="切版練習, HTML練習, CSS練習, 切版">
+
+    <meta property="og:title" content="基礎切版練習" />
+    <meta property="og:description" content="Udemy課程作業 by YING-RAN">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:image" content="image/css_200_a.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首頁</title>  
+   
+
+    <!--下方是IE的註解條件式，只有IE瀏覽器看得懂!-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+	<div class="wrap">
+        <div class="header">
+            <div class="nav">
+                <h1>
+                    <a href="#">logo</a>
+                </h1>
+                <ul>
+                    <li><a href="index.html" class="active">首頁</a></li>
+                    <li><a href="course.html">課程</a></li>
+                    <li><a href="qa.html">問答</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <h2 class="idx_hd_h2">
+            	歡迎來到<span>六角學院</span><br>帶你一起攻略前端設計
+            </h2>
+            <div class="idx_hd_btn">
+            	<a href="#">
+            		<span>馬上去註冊</span>
+            		<img src="image/arrow.png" alt="">
+            		<div class="clearfix"></div>
+            	</a>            	
+            </div>
+        </div>
+        <div class="content">
+        	<div class="course feature_course">        		
+        		<h3>精選課程</h3><span>幫助你拿到前端工程師的門票</span>
+        		<div class="btn"><a href="#">更多課程</a></div>
+        		<ul>
+        			<li>
+        				<img src="image/Html.png" alt="">
+        				<h4>Html 5 教學</h4>
+        				<span>主流前端網站設計的基礎，特過實際的範例，了解正確的網站開發流程。</span>
+        			</li>
+        			<li>
+        				<img src="image/RWD.png" alt="">
+        				<h4>響應式網站設計</h4>
+        				<span>主流前端網站設計的基礎，特過實際的範例，了解正確的網站開發流程。</span>
+        			</li>
+        			<li>
+        				<img src="image/jQuery.png" alt="">\
+        				<h4>jQuery 實戰教學</h4>
+        				<span>主流前端網站設計的基礎，特過實際的範例，了解正確的網站開發流程。</span>
+        			</li>
+        		</ul>
+        		<div class="clearfix"></div>
+        	</div>
+        	<div class="course compare_course">
+        		<h3>課程比較</h3><span>線上課程與實體課程的差異</span>
+        		<table>
+        			<thead>
+        				<tr>
+	        				<th>項目</th>
+	        				<th>六角學院 線上課程</th>
+	        				<th>一般線上課程</th>
+	        				<th>一般實體課程</th>
+        				</tr>
+        			</thead>
+        			<tbody>        				
+	        			<tr>
+	        				<td>費用</td>
+	        				<td class="green">較低</td>
+	        				<td class="green">較低</td>
+	        				<td>較高</td>
+	        			</tr>
+	        			<tr>
+	        				<td>學習效果</td>
+	        				<td>一般</td>
+	        				<td>較低</td>
+	        				<td class="green">很好</td>
+	        			</tr>
+	        			<tr>
+	        				<td>Code review</td>
+	        				<td class="green">有</td>
+	        				<td>無</td>
+	        				<td>不一定</td>
+	        			</tr>
+	        			<tr>
+	        				<td>課程更新速度</td>
+	        				<td class="green">普通</td>
+	        				<td class="green">普通</td>
+	        				<td>較慢</td>
+	        			</tr>
+	        			<tr>
+	        				<td>多次複習</td>
+	        				<td class="green">可</td>
+	        				<td class="green">可</td>
+	        				<td>不可</td>
+	        			</tr>
+	        			<tr>
+	        				<td>字幕</td>
+	        				<td class="green">有</td>
+	        				<td>不一定</td>
+	        				<td>板書</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	
+        </div>
+        <div class="message">
+                <span>你就是六角的下一個學生!<br>快留下資料讓我們認識你吧</span>
+                <div class="per_info">
+                    <form action="index.html">
+                        <input type="text"  placeholder="你的名字是?"><br>
+                        <input type="text"  placeholder="example@mail.com.tw"><br>
+                        <div class="clearfix"></div>
+                        <input type="submit" value="送出" class="submit">                        
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        <div class="footer">
+            <div class="foot_logo">
+                <img src="image/footer_logo.png" alt="">
+                <p>© 2018 hexschool</p>
+            </div>
+            <div class="foot_info">
+                <a href="#"><img src="image/facebook.png" alt=""></a>
+                <a href="#"><img src="image/twitter.png" alt=""></a>
+                <a href="#"><img src="image/instagram.png" alt=""></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport標籤與手機優先裡面有關。讓網頁可以觸控縮放
+    在content中加上 user-scalable=no 可以關閉縮放功能-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="image/css.ico"/>
+    <meta name='description' content='我的HTML切版練習, CSS撰寫參考，HTML撰寫參考' />
+    <meta name="keywords" content="切版練習, HTML練習, CSS練習, 切版">
+    <title>問答</title>  
+   
+
+    <!--下方是IE的註解條件式，只有IE瀏覽器看得懂!-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+	<div class="wrap">
+        <div class="header qa">
+            <div class="nav">
+                <h1>
+                    <a href="#">logo</a>
+                </h1>
+                <ul>
+                    <li><a href="index.html" >首頁</a></li>
+                    <li><a href="course.html">課程</a></li>
+                    <li><a href="qa.html" class="active">問答</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="search">
+                <h2>遇到問題了嗎 ?</h2><span>別擔心，你想找的答案都在這裡 !</span>
+                <input type="text">
+                <img src="image/search_icon.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="qs common">
+                <h3>常見問題#</h3><span>你想問的說不定也在這裡</span>
+                <div class="q_a">
+                    <p class="ques">Q：為什麼你們要用 Udemy 放你們的影音課程，他有什麼好處嗎？ </p>
+                    <p class="ans">A：他除了可上傳影音課程外，同時也能上傳我們設計出來的範例程式碼、設計單選題目，並能在 IOS、Andorid 上面學習，同時也能追蹤每位學生的學習機制，讓我們放心挑選 Udemy 作為我們的教學平台。</p>
+                </div>
+                <div class="q_a">
+                    <p class="ques">Q：影片課程有時效性嗎？</p>
+                    <p class="ans">A：完全沒有，此課程提供終身複習服務，你隨時可聽到我們即時更新的影音課程內容。</p>
+                </div>
+                <div class="q_a">
+                    <p class="ques">Q：我很擔心學完後還是學不會網頁設計，有什麼辦法嗎？</p>
+                    <p class="ans">A：課程結束後我們會提供給你網頁設計稿，做完後 mail 給我們， <span class="email">service@hexschool.com</span>，我們會替你進行程式碼檢視，以確保你的觀念吸收正確。</p>
+                </div>
+            </div>
+            <div class="qs paid">
+                <h3>怎麼付款#</h3><span>付款方式保證多元</span>
+                <div class="q_a">
+                    <p class="ques">Q：請問可以分期付款嗎？ </p>
+                    <p class="ans">
+                        A：當然沒問題，在本平台購買我們最高提供 6 期分期。
+                        <ul>
+                            <li>選擇產品後</li>
+                            <li>在進入金流平台付款時可選擇信用卡分期付款</li>
+                            <li>選擇期數，旁邊會附註每期應付款項</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="q_a">
+                    <p class="ques">Q：我沒有信用卡，有沒有其他匯款方案？</p>
+                    <p class="ans">A：每個課程現在都提供了其它付款方式，在課程連結旁就可以找到這個其他付款方式，而且我們是採用台灣第三方支付，安全又可靠。</p>
+                </div>
+                <div class="q_a">
+                    <p class="ques">Q：採用其它付款流程，但還沒有收到課程怎麼辦？</p>
+                    <p class="ans">A：課程會在 48 小時內寄出，如果沒有收到可以透過右下角的客服，或直接 mail 至我們的信箱 <span class="email">service@hexschool.com</span>，我們會盡快處理以保障您的權益。</p>
+                </div>
+            </div>
+            <div class="qs refund">
+                <h3>我想退款#</h3><span>期待你再次成為我們的學生</span>
+                <div class="q_a">
+                    <p class="ques">Q：如果怕線上影音課程吸收不好，可以要求退費嗎？ </p>
+                    <p class="ans">
+                        A：沒問題！Udemy 在 30 天內都可申請退款！                       
+                    </p>
+                </div>
+                <div class="q_a">
+                    <p class="ques">Q：Udemy 如何退款？</p>
+                    <p class="ans">A：透過 Udemy 的課程頁面的 選項 下即可使用退款功能。</p>
+                </div>
+                <div class="q_a">
+                    <p class="ques">Q：其它支付流程如何退款？</p>
+                    <p class="ans">A：請發信到 <span class="email">service@hexschool.com</span> 並詳著以下內容：</p>
+                    <ul>
+                        <li>退款帳戶</li>
+                        <li>Udemy 用戶名稱</li>
+                        <li>購買時間</li>
+                        <li>退款原因</li>
+                    </ul>
+                </div>
+                <div class="q_a">
+                    接下來，我們會有專人協助退款。退款後請注意：                   
+                    <ul>
+                        <li>退款會酌收第三方支付手續費，信用卡一次付清 2.8%、分三期 3%、分六期 3.5%、分 12 期 7%、ATM為 1%，超商為 28 元。</li>
+                        <li>退款後亦不能參與任何線上討論以及每週的線上問答</li>
+                        <li>退款後的學員再下次購買時，我們會先提供測試帳號 7 天再次鑑賞，確認該學員有需上這門課程，才能購買該次課程。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="message">
+            <span>找不到你的問題嗎 ?<br>直接寄信給我們解決吧 !</span>
+            <div class="per_info">
+                 <form action="index.html">
+                    <input type="text"  placeholder="你的名字是?"><br>
+                    <input type="text"  placeholder="example@mail.com.tw"><br>
+                    <textarea placeholder="你遇到什麼困難呢" ></textarea>
+                    <div class="clearfix"></div>
+                    <input type="submit" value="送出" class="submit">                        
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer">
+            <div class="foot_logo">
+                <img src="image/footer_logo.png" alt="">
+                <p>© 2018 hexschool</p>
+            </div>
+            <div class="foot_info">
+                <a href="#"><img src="image/facebook.png" alt=""></a>
+                <a href="#"><img src="image/twitter.png" alt=""></a>
+                <a href="#"><img src="image/instagram.png" alt=""></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</body>
+</html>

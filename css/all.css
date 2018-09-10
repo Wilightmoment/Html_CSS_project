@@ -1,0 +1,540 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.wrap{
+	box-sizing: border-box;
+	max-width: 1024px;
+	margin:0 auto;
+	font-family: Microsoft JhengHei;
+}
+
+/*header*/
+.header{
+	background-image: url(../image/banner_photo.png);
+	height: 560px;	/*做完要註解*/
+}
+
+.header .nav{	
+	background-color: rgba(74,74,74, 0.5) ;
+	padding:15px 30px 10px 30px;
+}
+
+.header .nav h1{
+	width: 170px;
+	display: inline;
+}
+
+.header .nav h1 a{	
+	height: 36px;
+	width: 170px;
+	background-image: url(../image/header_logo.png);
+	display: inline-block;
+	text-indent: 101%;
+	overflow: hidden;	
+}
+
+.header .nav ul{	
+	float: right;
+}
+
+.header .nav li{
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.header .nav li a{
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.header .nav li a:hover{
+	padding-bottom: 15px;
+	border-bottom: 5px solid #00cc77;
+}
+
+.header .nav li a.active{
+	color: #00cc77;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #00cc77;
+}
+
+/*content*/
+.content{
+	/*padding: 10px;*/
+}
+
+/*footer*/
+.footer{
+	padding: 20px 30px;
+	background-color: #323228;
+}
+
+.footer .foot_logo{
+	float: left;
+}
+
+.footer .foot_logo p{
+	color: #fff;
+	margin-left: 27px;
+}
+
+.footer .foot_info{
+	margin-top: 10px;
+	float: right;
+}
+
+.footer .foot_info a{
+	margin-left: 15px;
+}
+
+/*index*/
+/*header*/
+.header h2.idx_hd_h2{
+	font-size: 48px;
+	font-weight: bold;
+	color: #00cc77;
+	margin-top: 117px;
+	margin-left: 41px;
+	line-height: 70px;	
+}
+
+.header h2.idx_hd_h2 span{
+	color: #fff;
+}
+
+.header .idx_hd_btn{
+	margin-left: 41px;
+	margin-top: 20px;
+	display: inline-block;	
+	background-color: #00cc77;
+	border-radius: 5px;
+}
+
+.header .idx_hd_btn a{	
+	padding: 15px 30px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.header .idx_hd_btn a span{
+	float: left;
+}
+
+.header .idx_hd_btn a img{	
+	float: right;
+	margin-left: 30px;
+	margin-top: 3px;
+}
+
+/*content*/
+.course{
+	padding: 25px;
+}
+
+
+.course h3{
+	font-size: 36px;
+	color: #00cc77;	
+	display: inline;
+	margin-right: 8px;
+}
+
+.course span{
+	color: #9b9b9b;
+}
+
+.feature_course .btn{
+	float: right;
+	border:1px solid #00cc77;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+.feature_course .btn a{
+	text-decoration: none;
+	color: #00cc77;
+	font-weight: bold;
+}
+
+.feature_course ul{
+	float: left;
+	margin: 20px auto;	
+}
+
+.feature_course ul li{
+	box-sizing: border-box;
+	float: left;	
+	width: 30.3333%;
+	box-shadow: 0 2px 7px 0 rgba(0,0,0,0.35);	
+	background-color: #fff;	
+	margin-left: 22px;
+	text-align: center;
+	padding: 16px;
+	line-height: 20px;
+}
+
+.compare_course table{
+	margin-top: 30px;	
+	text-align: center;
+}
+
+.compare_course table th, table td{
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;	
+}
+
+.compare_course th{
+	padding:15px 59px;
+	background-color: #ebebeb;
+}
+
+.compare_course td{
+	padding:10px 0px;
+}
+
+.green{
+	color: #00cc77;
+}
+
+.message{
+	background-color: #ebebeb;
+	padding: 80px 50px 35px 50px;
+}
+
+.message span{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 48px;
+}
+
+.message .per_info{
+	margin-top: 18px;	
+	float: right;
+	width: 50%;
+}
+
+.message .per_info input{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 15px;
+	width: 70%;
+	float: right;
+}
+
+.message .per_info input.submit{	
+	background-color: #00cc77;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	width: 25%;
+}
+
+/*course*/
+/*header*/
+.header.course_header{
+	background-image: url(../image/banner_photo_2.png);
+}
+
+.course_header .cur_hd_h2{
+	margin-top: 110px;
+	margin-left: 50px;
+	display: inline-block;
+	font-size: 48px;
+	color: #fff;
+}
+
+.course_header .cur_hd_h2 span{
+	margin-top: 15px;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	color: #00cc77;
+}
+
+.header.course_header .hdpg{
+	margin-top: 45px;
+	margin-right: 45px;
+	float: right;
+}
+
+.cur_hd_btn{
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 50px;
+	border-radius: 5px;
+	background-color: #00cc77;
+}
+
+.cur_hd_btn a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 25px;
+}
+
+.cur_hd_btn a span{
+	float: left;
+}
+
+.cur_hd_btn a img{	
+	float: right;
+	margin-left: 10px;
+}
+
+/*content*/
+.cur_curIntro{
+	padding:50px 15%;
+}
+
+.cur_curIntro .cur_teacher img{
+	float: left;
+}
+
+.cur_curIntro .cur_teacher .teacher_name{
+	margin-top: 58px;
+	margin-left: 35px;
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	line-height: 48px;
+}
+
+.cur_curIntro .cur_teacher .teacher_name span{
+	display: block;
+	color: #00cc77;
+}
+
+.cur_curIntro .cur_teacher .teacher_intro{
+	margin-top: 65px;
+	float: right;
+	color: #9b9b9b;	
+}
+
+.special{
+	margin-top: 30px;
+}
+
+.special h3{
+	font-size: 36px;
+	color: #00cc77;	
+	display: inline;
+	margin-right: 8px;
+}
+
+.special span{
+	color: #9b9b9b;
+	font-size: 18px;
+	
+}
+
+.spc_intro{
+	margin-top: 30px;
+}
+
+ul.spc_intro{
+	list-style: decimal;
+	padding-left: 16px;
+	margin-bottom: 30px;
+}
+
+ul.spc_intro li{
+	padding-left: 15px;
+}
+
+.leading{
+	margin-top: 20px;
+}
+
+.leading table td{
+	border: none;
+	padding: 15px 370px 15px 30px;
+}
+
+.leading table tr:nth-child(odd){
+	background-color: #ebebeb;	
+}
+
+.leading table tr:nth-child(even){
+	color: #b9b9b9;
+}
+
+.course_foot{
+	background-color: #ebebeb;
+	padding: 80px 20%;
+}
+
+.course_foot span{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 48px;
+}
+
+.course_foot .cur_hd_btn a span{
+	font-size: 20px;
+	line-height: 18px;
+}
+
+.course_foot .cur_hd_btn{
+	margin-top: 48px;
+	float: right;
+}
+
+/*qa*/
+/*header*/
+.header.qa{
+	background-image: url(../image/banner_photo_3.png);
+}
+
+.header.qa .search{
+	padding-top: 12%;
+	position: relative;
+}
+
+.header.qa .search h2{
+	text-align: center;
+	font-size: 36px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.header.qa .search span{
+	margin-top: 16px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #00cc77;
+}
+
+.header.qa .search input{	
+	border-radius: 5px;
+	border: none;
+	padding:10px 10px;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 25%;
+	
+}
+
+.header.qa .search img{
+	position: absolute;
+	right: 240px;
+	bottom: 4px;
+	z-index: 1;
+}
+
+/*content*/
+
+.content {
+	padding:0px 7% 30px 7%;
+}
+
+.qs{
+	margin-top: 30px;
+}
+
+.qs h3{
+	color: #00cc77;
+	font-size: 36px;
+	display: inline;
+	margin-right: 20px;
+}
+
+.qs span{
+	color: #9b9b9b;	
+}
+
+span.email{
+	color: #00cc77;
+}
+
+.qs .q_a{
+	margin-top: 25px;
+	line-height: 25px;
+}
+
+.ques{
+	font-size: 20px;
+}
+
+.ans{
+	font-size: 16px;
+	color: #9b9b9b;
+}
+
+.qs .q_a ul{
+	list-style: decimal;	
+}
+
+.qs .q_a ul li{
+	margin-left: 51px;
+	padding-left: 18px;
+	color: #9b9b9b;
+}
+
+.qs.refund .q_a ul{
+	list-style: disc;
+}
+
+.message .per_info textarea{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 15px;
+	width: 70%;
+	height: 150px;
+	float: right;
+	resize: none;
+}
